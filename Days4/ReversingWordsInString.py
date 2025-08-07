@@ -9,8 +9,7 @@ def ReverseWordInString(string):
             w+=i[j]
         l += w + " "
         w=""
-    
-    print(s)
+        
     print("".join(l))
 
 
