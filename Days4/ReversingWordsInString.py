@@ -1,4 +1,3 @@
-# Reversing a word in String
 def ReverseWordInString(string):
     
     s = string.split()
@@ -8,12 +7,12 @@ def ReverseWordInString(string):
     for i in s:
         for j in range(len(i)-1,-1,-1):
             w+=i[j]
-        l.append(w)
+        l += w + " "
         w=""
     
     print(s)
-    print(" ".join(l))
+    print("".join(l))
 
 
-string = "Hello Programmers Welcome To My GitHub This Is Yashavanth TV"
+string = "Hello programmers this is Yashavnth TV GitHub"
 ReverseWordInString(string)
