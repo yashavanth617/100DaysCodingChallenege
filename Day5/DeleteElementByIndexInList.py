@@ -15,4 +15,4 @@ def DeleteElementByIndexInList(x, index):
 
     print(l)
 x = [1,2,3,4,5,6]
-d = DeleteElementByIndexInList(x,4)
+DeleteElementByIndexInList(x,4)
