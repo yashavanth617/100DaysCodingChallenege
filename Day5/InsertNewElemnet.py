@@ -17,4 +17,4 @@ def InsertNewElemnet(x, elemnet, pos):
     print(l)
 
 x = [1,2,3,4,5,6]
-Insert =InsertNewElemnet(x, 100, 4)
+InsertNewElemnet(x, 100, 4)
